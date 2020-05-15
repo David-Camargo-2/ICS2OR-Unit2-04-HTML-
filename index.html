@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+  <html lang="en-ca">
+  <head>
+  <link rel="stylesheet" href="mystyle.css">
+  <meta charset="utf-8">.
+  <meta name="description" content="Putting images this time">
+  <meta name="keywords" content="MHTS, website">
+  <meta name="author" content="David Camargo">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Hello, World! </title>
+  </head>
+  <body>
+  <p>My name is David</p>
+ <button onclick="myFunction1()">Hows computer class?</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction1() {
+  document.getElementById("demo").innerHTML = "two in one day woah im goodd";
+}
+</script>
+
+
+<h1>Favorite Marvel & DC Characters</h1>
+
+<form action="/action_page.php">
+  <label for="fname">Marvel:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">DC:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+ <button id="myBtn">Was my answer good enough?</button>
+
+<script>
+document.getElementById("myBtn").addEventListener("click", myFunction);
+
+function myFunction() {
+  alert ("If Deadpool wasnt there than no");
+}
+</script>
+  </body>
+</html>
